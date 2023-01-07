@@ -1,0 +1,85 @@
+.header {
+  padding: 20px 80px;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 03px;
+  align-items: center;
+  font-size: 19px;
+ 
+}
+.iconRotate {
+  rotate: 90deg;
+}
+.seeMore {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 400px;
+  height: 100%;
+  position: relative;
+}
+.ul {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+  display: flex;
+  transition: 250ms all linear;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: -100%;
+  visibility: hidden;
+}
+.showUl {
+  transition: 250ms all linear;
+  left: 025%;
+  visibility: visible;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  color: var(--white);
+  background-color: var(--text);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow1);
+}
+.text {
+  position: absolute;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  width: max-content;
+  top: 2%;
+  padding: 05px 10px;
+  border-radius: 5px;
+  z-index: 15;
+  left: 108%;
+  display: none;
+}
+.icon:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.icon:hover .text {
+  display: block;
+}
+.iconShow {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 10px 20px;
+    }
+  }

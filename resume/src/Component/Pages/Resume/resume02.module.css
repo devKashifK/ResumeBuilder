@@ -1,0 +1,278 @@
+
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 994px;
+  height: 1297px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0px auto;
+  font-family: var(--sans);
+  color: var(--white);
+  margin: 0px auto;
+}
+
+.profilePhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.profilePhoto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.aboutU {
+  display: flex;
+  padding: 30px 20px 30px 20px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.objectiveText{
+font-size: 0.8em;
+line-height: 140%;
+margin-bottom: 50px;
+word-break: break-word;
+}
+
+
+.aboutUBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 02px;
+}
+.detail {
+  width: 120px;
+  font-size: 0.625em;
+  font-weight: 300;
+}
+
+.namePhoto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.name {
+  font-size: 2.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.links{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 08px 20px;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.248);
+}
+.linkBoxCont{
+  display: flex;
+  gap: 17px;
+}
+.linksBox{
+  display: flex;
+  gap: 07px;
+}
+.linksBox p {
+  font-weight: 600;
+letter-spacing: 2px;
+}
+
+.languages{
+  display: flex;
+  gap: 10px;
+}
+.ul0{
+  display: flex;
+  gap : 10px;
+}
+.ul0 li::before{
+  content: "\2022"; 
+  color: black; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: 1em; 
+}
+
+.professionalInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 25px;
+  color: black;
+}
+.heading{
+  font-size: 20px;
+  font-weight: 600;
+}
+.ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.ul li{
+  margin-left: 50px;
+}
+.ul li::before{
+  content: "\2022"; 
+  color: black; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+
+/* Live Resume */
+.resumeLive{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 1123px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 50px auto;
+  color: var(--white);
+}
+
+
+.resumeLive .profilePhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.resumeLive .profilePhoto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.resumeLive .aboutU {
+  display: flex;
+  padding: 30px 20px 30px 20px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.resumeLive .objectiveText{
+font-size: 0.6em;
+line-height: 140%;
+margin-bottom: 50px;
+word-break: break-word;
+}
+
+
+.resumeLive .aboutUBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.resumeLive .personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 02px;
+}
+.resumeLive .detail {
+  width: 120px;
+  font-size: 0.625em;
+  font-weight: 300;
+}
+
+.resumeLive .namePhoto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.resumeLive .name {
+  font-size: 1.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.resumeLive .links{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 08px 20px;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.248);
+}
+.resumeLive .linkBoxCont{
+  display: flex;
+  gap: 17px;
+}
+.resumeLive .linksBox{
+  display: flex;
+  gap: 07px;
+}
+.resumeLive .linksBox p {
+  font-weight: 600;
+letter-spacing: 2px;
+}
+
+.resumeLive .languages{
+  display: flex;
+  gap: 10px;
+}
+.resumeLive .ul0{
+  display: flex;
+  gap : 10px;
+}
+.resumeLive .ul0 li::before{
+  content: "\2022"; 
+  color: black; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: 1em; 
+}
+
+.resumeLive .professionalInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 25px;
+  color: black;
+}
+.resumeLive .heading{
+  font-size: 20px;
+  font-weight: 600;
+}
+.resumeLive .ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.resumeLive .ul li{
+  margin-left: 50px;
+}
+.resumeLive .ul li::before{
+  content: "\2022"; 
+  color: black; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
