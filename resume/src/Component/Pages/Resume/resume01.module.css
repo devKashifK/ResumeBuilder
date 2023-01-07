@@ -45,8 +45,8 @@
 }
 .resume .skill {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
+  flex-direction: column;
+  gap: 10px;
   width: 100%;
 }
 .resume .hobbiesChild {
@@ -197,8 +197,8 @@
 }
 .resumeLive .skill {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
+  flex-direction: column;
+  gap: 10px;
   width: 100%;
   font-size: 14px;
 }
@@ -336,8 +336,25 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .resume {
+    width: 100%;
+    height: max-content;
+  }
+  .resume .profilePhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+  .resume .profilePhoto img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
   .resumeLive {
-    height: 1300px;
+    height: max-content;
   }
   .resumeLive .profilePhoto {
     width: 100px;
@@ -351,5 +368,108 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
+  }
+  .resume li {
+    margin-bottom: 05px;
+  }
+  .resume .info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    position: absolute;
+    left: 41%;
+    gap: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .flexColumn {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .resume .info h2 {
+    font-size: 18px;
+  }
+  .resume .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .resume .hobbiesChild {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+  }
+  .resume .ul {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 05px;
+  }
+
+  .resume h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  
+  .resume .upperBox {
+    position: absolute;
+    width: 36%;
+    height: 49px;
+    top: 0%;
+    right: 64%;
+    bottom: 20%;
+  }
+  
+  .resume .aboutU {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 100px;
+  }
+  .resume .personalInfo {
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .resume .personalInfo .information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -10px;
+  }
+  .resume .personalInfo .information span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .resume .personalInfo .information h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    margin-top: 05px;
+    font-weight: lighter;
+  }
+  .resume .ul0 {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 15px;
+  }
+  .resume .name {
+    font-weight: 700;
+    font-size: 22px;
   }
 }

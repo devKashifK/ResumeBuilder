@@ -406,6 +406,9 @@
   .makeResume {
     width: 90%;
   }
+  .preview {
+    width: 100%;
+  }
   .addOption span {
     left: 10px;
   }
@@ -426,5 +429,6 @@
   }
   .resumePreview {
     width: 100%;
+    height: max-content;
   }
 }

@@ -2,7 +2,6 @@
 .mainContainer{
 width: 90%;
 margin: auto;
-min-height: 100vh;
 }
 .previewContainer{
     display: flex;
@@ -71,4 +70,15 @@ min-height: 100vh;
 .Note span{
     color: var(--pink);
     font-size: 52px;  
+}
+
+@media only screen and (max-width: 1000px) {
+    .previewContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+    }
 }
