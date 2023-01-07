@@ -79,7 +79,16 @@ margin: auto;
         align-items: center;
     }
     .card{
-        width: 90%;
+        width: 80%;
+    }
+    .Note{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
     }
     .Note{
         font-size: 12px;
