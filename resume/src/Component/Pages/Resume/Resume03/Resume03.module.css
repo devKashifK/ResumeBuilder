@@ -345,3 +345,46 @@
       }
     
   }
+
+  @media only screen and (max-width: 400px) {
+    .name h2{
+      letter-spacing: 2px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .resumeLive  .profilePhoto{
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+  
+    }
+    .resumeLive  .profilePhoto img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .profilePhoto{
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+  
+    }
+.profilePhoto img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .ul0 li{
+      font-size: 14px;
+      color: #f4f4f4d4;
+      width: 85%;
+      margin-left: 15px;
+      list-style: disc;
+    }
+  }

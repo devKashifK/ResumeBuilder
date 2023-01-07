@@ -81,4 +81,7 @@ margin: auto;
     .card{
         width: 80%;
     }
+    .Note{
+        font-size: 12px;
+    }
 }

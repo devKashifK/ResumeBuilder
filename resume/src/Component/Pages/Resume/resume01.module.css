@@ -338,7 +338,6 @@
 @media only screen and (max-width: 600px) {
   .resume {
     width: 100%;
-    height: max-content;
   }
   .resume .profilePhoto {
     width: 100px;
@@ -353,9 +352,7 @@
     border-radius: 50%;
     object-fit: cover;
   }
-  .resumeLive {
-    height: max-content;
-  }
+
   .resumeLive .profilePhoto {
     width: 100px;
     height: 100px;

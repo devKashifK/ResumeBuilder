@@ -81,7 +81,7 @@
         padding: 10px 20px;
     }
     .logo {
-     width: 70%;
+      width: max-content;
     }
     .seeMore {
       cursor: pointer;
@@ -96,5 +96,6 @@
     .ul {
      left: -20%;
      top: -05px;
+     display: none;
     }
   }
